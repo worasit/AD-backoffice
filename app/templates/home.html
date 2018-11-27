@@ -1,10 +1,20 @@
+{# This is Jinja2 template engine#}
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Home</title>
+    <title>AD Manager</title>
 </head>
 <body>
+<ul id="navigation">
+    {% for item in navigation %}
+        <li><a href="{{ item.href }}">{{ item.caption }}</a></li>
+    {% endfor %}
+</ul>
 
+<h1>AD Manager</h1>
+{{ message }}
+
+
+{# a comment #}
 </body>
 </html>
