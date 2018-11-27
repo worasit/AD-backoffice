@@ -8,6 +8,7 @@ python-ldap = "*"
 flask = "*"
 requests = "*"
 "jinja2" = "*"
+flask-stormpath = "*"
 
 [dev-packages]
 
