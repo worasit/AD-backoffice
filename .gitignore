@@ -162,5 +162,5 @@ fabric.properties
 Pipfile
 Pipfile.lock
 app.py
-static/
-templates/
+app/static/
+app/templates/
