@@ -4,7 +4,7 @@ from flask_wtf import Form
 from wtforms import StringField, PasswordField
 from wtforms.validators import InputRequired
 
-from my_app import db, app
+from src import db, app
 
 
 def get_db_connection():
