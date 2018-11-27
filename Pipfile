@@ -9,6 +9,10 @@ flask = "*"
 requests = "*"
 "jinja2" = "*"
 flask-stormpath = "*"
+flask-wtf = "*"
+flask-sqlalchemy = "*"
+flask-login = "*"
+flask-caching = "*"
 
 [dev-packages]
 

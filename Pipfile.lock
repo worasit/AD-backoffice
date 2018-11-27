@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8f8462a4ec10a986ae8a84120057230cf2db46fc06740db33245a65332753207"
+            "sha256": "96780d13322867cfc3402d75541733339deffc69d82ffdbab3e0cd6d669f43b9"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -58,11 +58,28 @@
             "index": "pypi",
             "version": "==1.0.2"
         },
+        "flask-caching": {
+            "hashes": [
+                "sha256:44fe827c6cc519d48fb0945fa05ae3d128af9a98f2a6e71d4702fd512534f227",
+                "sha256:e34f24631ba240e09fe6241e1bf652863e0cff06a1a94598e23be526bc2e4985"
+            ],
+            "index": "pypi",
+            "version": "==1.4.0"
+        },
         "flask-login": {
             "hashes": [
                 "sha256:e72eff5c35e5a31db1aeca1db5d2501be702674ea88e8f223b5d2b11644beee6"
             ],
+            "index": "pypi",
             "version": "==0.3.2"
+        },
+        "flask-sqlalchemy": {
+            "hashes": [
+                "sha256:3bc0fac969dd8c0ace01b32060f0c729565293302f0c4269beed154b46bec50b",
+                "sha256:5971b9852b5888655f11db634e87725a9031e170f37c0ce7851cf83497f56e53"
+            ],
+            "index": "pypi",
+            "version": "==2.3.2"
         },
         "flask-stormpath": {
             "hashes": [
@@ -77,6 +94,7 @@
                 "sha256:5d14d55cfd35f613d99ee7cba0fc3fbbe63ba02f544d349158c14ca15561cc36",
                 "sha256:d9a9e366b32dcbb98ef17228e76be15702cd2600675668bca23f63a7947fd5ac"
             ],
+            "index": "pypi",
             "version": "==0.14.2"
         },
         "httplib2": {
@@ -222,6 +240,12 @@
                 "sha256:832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb"
             ],
             "version": "==1.11.0"
+        },
+        "sqlalchemy": {
+            "hashes": [
+                "sha256:9de7c7dabcf06319becdb7e15099c44e5e34ba7062f9ba10bc00e562f5db3d04"
+            ],
+            "version": "==1.2.14"
         },
         "stormpath": {
             "hashes": [
